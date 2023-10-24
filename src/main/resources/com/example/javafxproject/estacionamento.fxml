@@ -11,8 +11,10 @@ fx:controller="com.example.javafxproject.EstacionamentoController">
     </padding>
 
     <VBox alignment="CENTER" spacing="20.0">
-        <Label text="ESTACIONAMENTO"/> 
+
+        <Label text="ESTACIONAMENTO" styleClass="estiloTitulo" /> 
         <Label text="Utilize o formulário abaixo para iniciar o estacionamento" />
+
     </VBox>
 
     <Label text="Função" />
@@ -33,6 +35,10 @@ fx:controller="com.example.javafxproject.EstacionamentoController">
     <VBox alignment="CENTER_RIGHT" spacing="20.0">
         <Button text="Continuar" onAction="#onActionContinuar" />
     </VBox>
+
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
 
 </VBox>
 
