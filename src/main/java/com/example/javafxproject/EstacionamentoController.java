@@ -1,7 +1,6 @@
 package com.example.javafxproject;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
 
 public class EstacionamentoController {
@@ -16,7 +15,7 @@ public class EstacionamentoController {
     @FXML
     private TextField txfSenha;
     
-    public void onActionCadastrar() {
+    public void onActionContinuar() {
         String funcao = txfFuncao.getText();
         String nome = txfNome.getText();
         String email = txfEmail.getText();
