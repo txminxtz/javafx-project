@@ -1,0 +1,22 @@
+.estiloTitulo {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+}
+.labelField {
+    -fx-font-size: 13px;
+    -fx-font-weight: 12px;
+    -fx-font-weight: bold;
+  }
+VBox {
+    -fx-padding: 15px;
+}
+TextField {
+    -fx-font-size: 13px;
+    -fx-padding: 10px;
+    -fx-font-weight: 15px;
+  }
+  
+        
+
+  
+

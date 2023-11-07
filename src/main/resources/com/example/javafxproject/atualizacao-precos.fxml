@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+
+<VBox alignment="CENTER_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+fx:controller="com.example.javafxproject.AtualizarPrecosController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <VBox alignment="CENTER" spacing="20.0">
+        <Label text="Atualização de Preços" styleClass="estiloTitulo"/>
+        <Label text="Utilize o formulário abaixo para atualizar os preços" />
+    </VBox>
+
+    <Label text="Primeira hora" styleClass="labelField"/>
+    <TextField fx:id="txfPh" />
+
+    <Label text="Demais horas " styleClass="labelField"/>
+    <TextField fx:id="txfDm" />
+
+    <Label text="Diaria" styleClass="labelField"/>
+    <TextField fx:id="txfDiaria" />
+
+    <Label text="Mensalistas" styleClass="labelField"/>
+    <TextField fx:id="txfMensalistas" />
+
+    <VBox alignment="CENTER_RIGHT" spacing="20.0">
+        <Button text="Confirmar" onAction="#onActionConfirmar" />
+    </VBox>
+
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+
+
+</VBox>
+
+
