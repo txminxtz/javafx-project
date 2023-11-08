@@ -18,19 +18,19 @@ fx:controller="com.example.javafxproject.EstacionamentoController">
 
     </VBox>
 
-    <Label text="Função" />
+    <Label text="Função" styleClass="labelField"/>
     <TextField fx:id="txfFuncao" />
 
-    <Label text="Nome" />
+    <Label text="Nome" styleClass="labelField"/>
     <TextField fx:id="txfNome" />
 
-    <Label text="E-mail" />
+    <Label text="E-mail" styleClass="labelField"/>
     <TextField fx:id="txfEmail" />
 
-    <Label text="Telefone" />
+    <Label text="Telefone" styleClass="labelField"/>
     <TextField fx:id="txfTelefone" />
 
-    <Label text="Senha" />
+    <Label text="Senha" styleClass="labelField"/>
     <TextField fx:id="txfSenha" />
 
     <VBox alignment="CENTER_RIGHT" spacing="20.0">

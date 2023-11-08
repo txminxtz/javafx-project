@@ -1,10 +1,17 @@
 package com.example.javafxproject;
 
+import java.util.Set;
+
 import javafx.fxml.FXML;
-import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
 public class CadastroUsuariosController {
+
+    private Set<String> txfNome() {
+        return null;
+    }
+
     @FXML
     private TextField txfNome;
     @FXML
@@ -17,7 +24,11 @@ public class CadastroUsuariosController {
     private TextField txfCodigo;
     @FXML
     private TextField txfSenha;
+        
+    @FXML
+    private Label nomeErroLabel;
     
+    @FXML
     public void onActionConfirmar() {
         String nome = txfNome.getText();
         String email = txfEmail.getText();
@@ -26,12 +37,26 @@ public class CadastroUsuariosController {
         String codigo = txfCodigo.getText();
         String senha = txfSenha.getText();
 
-        System.out.println(nome);
-        System.out.println(email);
-        System.out.println(telefone);
-        System.out.println(cargo);
-        System.out.println(codigo);
-        System.out.println(senha);
+        if (nome.isBlank()) {
+            nomeErroLabel.setManaged(true);
+            nomeErroLabel.setVisible(true);
+            nomeErroLabel.setText("Nome não pode ser vazio");
+
+            Set<String> styleClasses = txfNome();
+            styleClasses.add("erroTextField");
+            txfNome.getStyleClass().setAll(styleClasses);
+        } else {
+            nomeErroLabel.setManaged(false);
+            nomeErroLabel.setVisible(false);
+
+            Set<String> styleClasses = txfNome();
+            styleClasses.remove("erroTextField");
+            txfNome.getStyleClass().setAll(styleClasses);
+        }
+        
+        System.out.println(nome + ", " + email + ", "
+         + telefone + ", " + cargo + ", " + codigo + ", " + senha);
+
     }
     
 }

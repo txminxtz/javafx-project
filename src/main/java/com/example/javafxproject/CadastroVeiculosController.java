@@ -1,7 +1,6 @@
 package com.example.javafxproject;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
 
 public class CadastroVeiculosController {
@@ -23,11 +22,8 @@ public class CadastroVeiculosController {
         String cor = txfCor.getText();
         String proprietario = txfProprietario.getText();
 
-        System.out.println(placa);
-        System.out.println(modelo);
-        System.out.println(marca);
-        System.out.println(cor);
-        System.out.println(proprietario);
+        System.out.println(placa + ", " + modelo + ", "
+         + marca + ", " + cor + ", " + proprietario);
         
     }
     

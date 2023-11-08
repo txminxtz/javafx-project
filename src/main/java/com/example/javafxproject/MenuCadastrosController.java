@@ -4,7 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
 
-public class AtualizarPrecosController {
+public class MenuCadastrosController {
     @FXML
     private TextField txfPh;
     @FXML
@@ -27,3 +27,4 @@ public class AtualizarPrecosController {
     }
     
 }
+

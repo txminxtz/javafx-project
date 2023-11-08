@@ -1,7 +1,6 @@
 package com.example.javafxproject;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextField;
 
 public class AtualizarPrecosController {
@@ -20,10 +19,8 @@ public class AtualizarPrecosController {
         String diaria = txfDiaria.getText();
         String mensalistas = txfMensalistas.getText();
 
-        System.out.println(ph);
-        System.out.println(dh);
-        System.out.println(diaria);
-        System.out.println(mensalistas);
+        System.out.println(ph + ", " + dh + ", "
+         + diaria + ", " + mensalistas);
     }
     
 }

@@ -1,22 +1,31 @@
 .estiloTitulo {
-    -fx-font-size: 17px;
+    -fx-font-size: 15px;
     -fx-font-weight: bold;
+    -fx-min-width: 10px;
+    -fx-min-height: 10px;
 }
-.labelField {
-    -fx-font-size: 13px;
-    -fx-font-weight: 12px;
-    -fx-font-weight: bold;
-  }
-VBox {
-    -fx-padding: 15px;
-}
-TextField {
-    -fx-font-size: 13px;
-    -fx-padding: 10px;
-    -fx-font-weight: 15px;
-  }
-  
-        
 
-  
+VBox {
+  -fx-padding: 12px;
+}
+
+Label {
+  -fx-font-size: 12px;
+}
+
+TextField {
+  -fx-font-size: 12px;
+  -fx-padding: 3px;
+}
+
+.labelField {
+  -fx-font-weight: bold;
+  -fx-font-size: 12px;
+  -fx-padding: 0px;
+}
+
+.erroTextField {
+  -fx-border-color: red;
+  -fx-border-width: 2px;
+}
 

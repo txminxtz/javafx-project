@@ -12,23 +12,23 @@ fx:controller="com.example.javafxproject.CadastroVeiculosController">
     </padding>
 
     <VBox alignment="CENTER" spacing="20.0">
-        <Label text="Cadastro Veiculos"/>
+        <Label text="Cadastro Veiculos" styleClass="estiloTitulo"/>
         <Label text="Utilize o formulário abaixo para realizar o cadastro" />
     </VBox>
 
-    <Label text="Placa" />
+    <Label text="Placa" styleClass="labelField"/>
     <TextField fx:id="txfPlaca" />
 
-    <Label text="Modelo" />
+    <Label text="Modelo" styleClass="labelField"/>
     <TextField fx:id="txfModelo" />
 
-    <Label text="Marca" />
+    <Label text="Marca" styleClass="labelField"/>
     <TextField fx:id="txfMarca" />
 
-    <Label text="Cor" />
+    <Label text="Cor" styleClass="labelField"/>
     <TextField fx:id="txfCor" />
 
-    <Label text="Proprietario" />
+    <Label text="Proprietario" styleClass="labelField"/>
     <TextField fx:id="txfProprietario" />
 
 

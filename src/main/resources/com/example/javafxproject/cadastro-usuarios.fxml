@@ -12,26 +12,28 @@ fx:controller="com.example.javafxproject.CadastroUsuariosController">
     </padding>
 
     <VBox alignment="CENTER" spacing="20.0">
-        <Label text="Cadastro Usuario"/>
+        <Label text="Cadastro Usuario" styleClass="estiloTitulo"/>
         <Label text="Utilize o formulário abaixo para realizar o cadastro" />
     </VBox>
 
-    <Label text="Nome" />
+    <Label text="Nome" styleClass="labelField"/>
     <TextField fx:id="txfNome" />
+    <Label fx:id="nomeErroLabel" visible="false" managed="false" styleClass="erroTextField" />
 
-    <Label text="E-mail" />
+
+    <Label text="E-mail" styleClass="labelField"/>
     <TextField fx:id="txfEmail" />
 
-    <Label text="Telefone" />
+    <Label text="Telefone" styleClass="labelField"/>
     <TextField fx:id="txfTelefone" />
 
-    <Label text="Cargo" />
+    <Label text="Cargo" styleClass="labelField"/>
     <TextField fx:id="txfCargo" />
 
-    <Label text="Codigo" />
+    <Label text="Codigo" styleClass="labelField"/>
     <TextField fx:id="txfCodigo" />
 
-    <Label text="Senha" />
+    <Label text="Senha" styleClass="labelField"/>
     <TextField fx:id="txfSenha" />
 
     <VBox alignment="CENTER_RIGHT" spacing="20.0">
