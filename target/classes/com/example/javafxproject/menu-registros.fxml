@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+
+<VBox alignment="CENTER_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+fx:controller="com.example.javafxproject.MenuRegistrosController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <VBox alignment="CENTER" spacing="20.0">
+        <Label text="Menu de Registros" styleClass="estiloTitulo"/>
+        <Label text="Utilize o formulário abaixo para realizar o cadastro" />
+    </VBox>
+
+    <Label text="Placa" styleClass="labelField"/>
+    <TextField fx:id="txfPlaca" />
+
+    <Label text="Entrada" styleClass="labelField"/>
+    <TextField fx:id="txfEntrada" />
+
+    <Label text="Saida" styleClass="labelField"/>
+    <TextField fx:id="txfSaida" />
+
+    <Label text="Mensalista" styleClass="labelField"/>
+    <TextField fx:id="txfMensalista" />
+
+    <Label text="Valor" styleClass="labelField"/>
+    <TextField fx:id="txfValor" />
+
+
+    <VBox alignment="CENTER_RIGHT" spacing="20.0">
+        <Button text="Confirmar" onAction="#onActionConfirmar" />
+    </VBox>
+
+    <stylesheets>
+    <URL value="@style.css" />
+    </stylesheets>
+
+
+</VBox>
+
+
