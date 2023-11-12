@@ -14,27 +14,15 @@ fx:controller="com.example.javafxproject.EstacionamentoController">
     <VBox alignment="CENTER" spacing="20.0">
 
         <Label text="ESTACIONAMENTO" styleClass="estiloTitulo" /> 
-        <Label text="Entre no estacionamento" />
 
     </VBox>
 
-    <Label text="Função" styleClass="labelField"/>
-    <TextField fx:id="txfFuncao" />
-
-    <Label text="Nome" styleClass="labelField"/>
-    <TextField fx:id="txfNome" />
-
-    <Label text="E-mail" styleClass="labelField"/>
-    <TextField fx:id="txfEmail" />
-
-    <Label text="Telefone" styleClass="labelField"/>
-    <TextField fx:id="txfTelefone" />
-
-    <Label text="Senha" styleClass="labelField"/>
-    <TextField fx:id="txfSenha" />
+    <Label alignment="CENTER_RIGHT" spacing="20.0" 
+           text="Senha" styleClass="labelField"/>
+    <PasswordField fx:id="psfSenha" />
 
     <VBox alignment="CENTER_RIGHT" spacing="20.0">
-        <Button text="Continuar" onAction="#onActionContinuar" />
+        <Button text="Entrar" onAction="#onActionEntrar" />
     </VBox>
 
     <stylesheets>

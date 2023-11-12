@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+
+<VBox alignment="CENTER_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+fx:controller="com.example.javafxproject.RelatorioGeralController">
+    <padding>
+        <Insets bottom="50.0" left="40.0" right="40.0" top="20.0"/>
+    </padding>
+
+    <VBox alignment="CENTER" spacing="20.0">
+        <Label text="Relatorio Geral" styleClass="estiloTitulo"/>
+    </VBox>
+
+    <Label text="Data inicial" styleClass="labelField"/>
+    <DatePicker fx:id="dtpdataInicial" />
+
+    <Label text="Data final" styleClass="labelField"/>
+    <DatePicker fx:id="dtpdataFinal" />
+
+    <VBox alignment="CENTER_RIGHT" spacing="20.0">
+        <Button text="Confirmar" onAction="#onActionConfirmar" />
+    </VBox>
+
+    <stylesheets>
+    <URL value="@style.css" />
+    </stylesheets>
+
+
+</VBox>
+
+

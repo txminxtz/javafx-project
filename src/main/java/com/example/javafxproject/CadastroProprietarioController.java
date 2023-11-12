@@ -13,20 +13,17 @@ public class CadastroProprietarioController {
     @FXML
     private TextField txfCodigo;
     @FXML
-    private TextField txfEndereço;
+    private TextField txfEndereco;
     
     public void onActionConfirmar() {
         String nome = txfNome.getText();
         String CPF = txfCPF.getText();
         String telefone = txfTelefone.getText();
-        String Codigo = txfCodigo.getText();
-        String Endereço = txfEndereço.getText();
-       
-        System.out.println(nome);
-        System.out.println(CPF);
-        System.out.println(telefone);
-        System.out.println(Codigo);
-        System.out.println(Endereço);
+        String codigo = txfCodigo.getText();
+        String endereco = txfEndereco.getText();
+        
+        System.out.println(nome + ", " + CPF + ", "
+        + telefone + ", " + codigo + ", " + endereco);
     }
     
 }

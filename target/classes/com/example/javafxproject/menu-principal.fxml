@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.*?>
+
+<VBox alignment="CENTER_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+fx:controller="com.example.javafxproject.MenuPrincipalController">
+    <padding>
+        <Insets bottom="100.0" left="60.0" right="80.0" top="70.0"/>
+    </padding>
+
+    <VBox alignment="CENTER" spacing="20.0">
+        <Label text="Menu Principal" styleClass="estiloTitulo"/>
+    </VBox>
+
+    <VBox alignment="CENTER_LEFT" spacing="20.0">
+        <Label text="Selecione um botão " styleClass="labelField"/>
+    </VBox>
+
+    <VBox alignment="CENTER_LEFT" spacing="20.0">
+
+        <Button text="Cadastros" onAction="#abrirCadastros" />
+        <Button text="Registros" onAction="#abrirRegistros" />
+        <Button text="Relatórios" onAction="#abrirRelatorios" />
+
+    </VBox>
+
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+
+
+</VBox>
+
+

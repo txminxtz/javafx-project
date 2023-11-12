@@ -12,7 +12,7 @@ fx:controller="com.example.javafxproject.CadastroProprietarioController">
     </padding>
 
     <VBox alignment="CENTER" spacing="20.0">
-        <Label text="Cadastro Cliente" styleClass="estiloTitulo"/>
+        <Label text="Cadastro Proprietario" styleClass="estiloTitulo"/>
         <Label text="Utilize o formulário abaixo para realizar o cadastro" />
     </VBox>
 
@@ -28,8 +28,8 @@ fx:controller="com.example.javafxproject.CadastroProprietarioController">
     <Label text="Codigo" styleClass="labelField"/>
     <TextField fx:id="txfCodigo" />
 
-    <Label text="Endereço" styleClass="labelField"/>
-    <TextField fx:id="txfE" />
+    <Label text="Endereco" styleClass="labelField"/>
+    <TextField fx:id="txfEndereco" />
 
     <VBox alignment="CENTER_RIGHT" spacing="20.0">
         <Button text="Confirmar" onAction="#onActionConfirmar" />

@@ -5,27 +5,34 @@
 <?import javafx.scene.layout.*?>
 <?import java.net.*?>
 
-<HBox alignment="CENTER_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-fx:controller="com.example.javafxproject.MainController">
+<VBox alignment="CENTER_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+fx:controller="com.example.javafxproject.MenuCadastrosController">
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        <Insets bottom="100.0" left="60.0" right="80.0" top="70.0"/>
     </padding>
 
     <VBox alignment="CENTER" spacing="20.0">
-
-        <Label text="Menu de Cadastros" styleClass="estiloTitulo" /> 
-
+        <Label text="Menu de Cadastros" styleClass="estiloTitulo"/>
     </VBox>
 
-    <Button text="Usuarios" onAction="#onAbrirCadastroUsuarios" />
-    <Button text="Veiculos" onAction="#onAbrirCadastroVeiculos" />
-    <Button text="Preço" onAction="#onAbrirAtualizacaoPrecos" />
+    <VBox alignment="CENTER_LEFT" spacing="20.0">
+        <Label text="Selecione um botão " styleClass="labelField"/>
+    </VBox>
 
+    <VBox alignment="CENTER_LEFT" spacing="20.0">
+
+        <Button text="Usuarios" onAction="#abrirUsuarios" />
+        <Button text="Proprietarios" onAction="#abrirPoprietarios" />
+        <Button text="Veiculos" onAction="#abrirVeiculos" />
+        <Button text="Preços" onAction="#abrirPrecos" />
+
+    </VBox>
 
     <stylesheets>
         <URL value="@style.css" />
     </stylesheets>
 
-</HBox>
+
+</VBox>
 
 

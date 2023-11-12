@@ -18,8 +18,6 @@ fx:controller="com.example.javafxproject.CadastroUsuariosController">
 
     <Label text="Nome" styleClass="labelField"/>
     <TextField fx:id="txfNome" />
-    <Label fx:id="nomeErroLabel" visible="false" managed="false" styleClass="erroTextField" />
-
 
     <Label text="E-mail" styleClass="labelField"/>
     <TextField fx:id="txfEmail" />
@@ -34,17 +32,15 @@ fx:controller="com.example.javafxproject.CadastroUsuariosController">
     <TextField fx:id="txfCodigo" />
 
     <Label text="Senha" styleClass="labelField"/>
-    <TextField fx:id="txfSenha" />
+    <PasswordField fx:id="psfSenha" />
 
     <VBox alignment="CENTER_RIGHT" spacing="20.0">
         <Button text="Confirmar" onAction="#onActionConfirmar" />
     </VBox>
 
     <stylesheets>
-    <URL value="@style.css" />
+        <URL value="@style.css" />
     </stylesheets>
 
 
 </VBox>
-
-
