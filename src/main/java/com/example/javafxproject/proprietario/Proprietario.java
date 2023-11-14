@@ -22,6 +22,18 @@ class Proprietario{
         this.telefone = telefone;
 
     }
+    
+    public Proprietario (
+        String nome, 
+        String email, 
+        String telefone) 
+    {
+
+        this.nome = nome;
+        this.email = email;
+        this.telefone = telefone;
+
+    }
 
     public int getCod () {
         return this.cod;

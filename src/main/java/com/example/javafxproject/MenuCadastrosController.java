@@ -22,8 +22,8 @@ public class MenuCadastrosController {
     }
       
     @FXML
-    protected void abrirPoprietarios() throws IOException {
-        FXMLLoader loader = new FXMLLoader(MenuCadastrosController.class.getResource("cadastro-proprietarios.fxml"));
+    protected void abrirProprietarios() throws IOException {
+        FXMLLoader loader = new FXMLLoader(MenuCadastrosController.class.getResource("cadastro-proprietario.fxml"));
         Scene scene = new Scene(loader.load());
         Stage stage = new Stage();
         stage.setTitle("Cadastro de Proprietarios");

@@ -22,9 +22,6 @@ fx:controller="com.example.javafxproject.proprietario.CadastroProprietarioContro
     <Label text="Telefone" styleClass="labelField"/>
     <TextField fx:id="txfTelefone" />
 
-    <Label text="Codigo" styleClass="labelField"/>
-    <TextField fx:id="txfCodigo" />
-
     <Label text="Email" styleClass="labelField"/>
     <TextField fx:id="txfEmail" />
 

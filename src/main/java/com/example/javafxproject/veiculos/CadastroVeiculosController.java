@@ -1,6 +1,5 @@
 package com.example.javafxproject.veiculos;
 
-
 import com.example.javafxproject.veiculos.DAO_Veiculo;
 
 import javafx.fxml.FXML;

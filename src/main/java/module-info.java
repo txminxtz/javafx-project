@@ -6,7 +6,7 @@ module com.example.javafxproject {
     opens com.example.javafxproject to javafx.fxml;
     opens com.example.javafxproject.usuario to javafx.fxml;
     opens com.example.javafxproject.proprietario to javafx.fxml;
-    opens com.example.javafxproject.veiculo to javafx.fxml;
+    opens com.example.javafxproject.veiculos to javafx.fxml;
 
     exports com.example.javafxproject;
 }

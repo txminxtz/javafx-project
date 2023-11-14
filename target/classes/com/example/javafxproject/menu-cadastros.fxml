@@ -22,7 +22,7 @@ fx:controller="com.example.javafxproject.MenuCadastrosController">
     <VBox alignment="CENTER_LEFT" spacing="20.0">
 
         <Button text="Usuarios" onAction="#abrirUsuarios" />
-        <Button text="Proprietarios" onAction="#abrirPoprietarios" />
+        <Button text="Proprietarios" onAction="#abrirProprietarios" />
         <Button text="Veiculos" onAction="#abrirVeiculos" />
         <Button text="Preços" onAction="#abrirPrecos" />
 

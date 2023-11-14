@@ -17,7 +17,7 @@ public class DAO_Usuario {
     //////////////////////////
     public Usuario cadastrar(Usuario u) {
         Usuario usuario = null;
-        String sql = "INSERT INTO tbl.usuario (nome, email, telefone, cargo, senha) VALUES (?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO usuario (nome, email, telefone, cargo, senha) VALUES (?, ?, ?, ?, ?)";
 
         try (
             Connection connection = Conexao.getConnection();
