@@ -6,7 +6,7 @@
 <?import java.net.*?>
 
 <VBox alignment="CENTER_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-fx:controller="com.example.javafxproject.CadastroUsuariosController">
+fx:controller="com.example.javafxproject.usuario.CadastroUsuariosController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
@@ -27,9 +27,6 @@ fx:controller="com.example.javafxproject.CadastroUsuariosController">
 
     <Label text="Cargo" styleClass="labelField"/>
     <TextField fx:id="txfCargo" />
-
-    <Label text="Codigo" styleClass="labelField"/>
-    <TextField fx:id="txfCodigo" />
 
     <Label text="Senha" styleClass="labelField"/>
     <PasswordField fx:id="psfSenha" />
