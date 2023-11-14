@@ -5,6 +5,7 @@ import com.example.javafxproject.proprietario.DAO_Proprietario;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 
+
 public class CadastroProprietarioController {
     @FXML
     private TextField txfNome;

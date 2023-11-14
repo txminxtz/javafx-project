@@ -1,7 +1,6 @@
 package com.example.javafxproject.usuario;
 
 class Usuario{
-
     private String nome;
     private String cargo;
     private String email;

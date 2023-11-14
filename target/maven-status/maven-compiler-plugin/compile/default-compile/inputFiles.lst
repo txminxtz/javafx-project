@@ -1,23 +1,29 @@
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\MenuCadastrosController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\veiculos\CadastroVeiculosController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\module-info.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\proprietario\Proprietario.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\RelatorioVeiculosController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\CadastroVeiculosController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\usuario\CadastroUsuariosController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\proprietario\CadastroProprietarioController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\MenuRelatoriosFinanceiroController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\conexao\Conexao.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\veiculos\Veiculo.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\HelloApplication.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\LoginController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\RelatorioVeiculosEstacionadosController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\usuario\DAO_Usuario.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\MenuRegistrosController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\proprietario\DAO_Proprietario.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\MenuPrincipalController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\RelatorioGeralController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\veiculos\DAO_Veiculo.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\EstacionamentoController.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\usuario\Usuario.java
-D:\Meus documentos\Estudos\_Bruno\2023\IFSP\Vs Studio\javafx-project\src\main\java\com\example\javafxproject\AtualizarPrecosController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/usuario/DAO_Usuario.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/module-info.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/HelloApplication.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/usuario/CadastroUsuariosController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/DAO/DAO_Registro.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/RelatorioVeiculosController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/usuario/Usuario.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/proprietario/DAO_Proprietario.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/MenuRelatoriosFinanceiroController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/LoginController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/DAO/DAO_Proprietario.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/DAO/DAO_Veiculo.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/MenuCadastrosController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/DAO/DAO_Tarifa.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/proprietario/CadastroProprietarioController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/MenuRegistrosController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/RelatorioGeralController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/conexao/Conexao.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/proprietario/Proprietario.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/DAO/ConnectionFactory.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/veiculos/Veiculo.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/veiculos/DAO_Veiculo.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/DAO/DAO_Comum.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/RelatorioVeiculosEstacionadosController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/DAO/DAO_Usuario.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/AtualizarPrecosController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/EstacionamentoController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/MenuPrincipalController.java
+/home/estudante1/SP3088375/javafx-project/src/main/java/com/example/javafxproject/veiculos/CadastroVeiculosController.java

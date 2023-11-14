@@ -20,7 +20,7 @@ fx:controller="com.example.javafxproject.MenuPrincipalController">
     </VBox>
 
     <VBox alignment="CENTER_LEFT" spacing="20.0">
-
+ 
         <Button text="Cadastros" onAction="#abrirCadastros" />
         <Button text="Registros" onAction="#abrirRegistros" />
         <Button text="Relatórios" onAction="#abrirRelatorios" />

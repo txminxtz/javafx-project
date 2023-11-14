@@ -6,7 +6,7 @@
 <?import java.net.*?>
 
 <VBox alignment="CENTER_LEFT" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-fx:controller="com.example.javafxproject.CadastroProprietarioController">
+fx:controller="com.example.javafxproject.proprietario.CadastroProprietarioController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
@@ -19,17 +19,14 @@ fx:controller="com.example.javafxproject.CadastroProprietarioController">
     <Label text="Nome" styleClass="labelField"/>
     <TextField fx:id="txfNome" />
 
-    <Label text="CPF" styleClass="labelField"/>
-    <TextField fx:id="txfCPF" />
-
     <Label text="Telefone" styleClass="labelField"/>
     <TextField fx:id="txfTelefone" />
 
     <Label text="Codigo" styleClass="labelField"/>
     <TextField fx:id="txfCodigo" />
 
-    <Label text="Endereco" styleClass="labelField"/>
-    <TextField fx:id="txfEndereco" />
+    <Label text="Email" styleClass="labelField"/>
+    <TextField fx:id="txfEmail" />
 
     <VBox alignment="CENTER_RIGHT" spacing="20.0">
         <Button text="Confirmar" onAction="#onActionConfirmar" />

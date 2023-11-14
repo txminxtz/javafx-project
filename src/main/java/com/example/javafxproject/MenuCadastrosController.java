@@ -1,43 +1,57 @@
 package com.example.javafxproject;
 
 import javafx.scene.control.Alert;
+import java.io.IOException;
+
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
 public class MenuCadastrosController {
     
-    public void abrirUsuarios() {
-    
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Cadastro Usuarios");
-        alert.setHeaderText("Entrada efetuada!");
-        alert.setContentText("Você será levado(a) à tela Cadastro Usuarios !");
-        alert.showAndWait();        
+    @FXML
+    protected void abrirUsuarios() throws IOException {
+        FXMLLoader loader = new FXMLLoader(MenuCadastrosController.class.getResource("cadastro-usuarios.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = new Stage();
+        stage.setTitle("Cadastros de Usuarios");
+        stage.setScene(scene);
+        stage.sizeToScene();
+        stage.show();
     }
-    
-    public void abrirPoprietarios() {
       
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Cadastro Proprietarios");
-        alert.setHeaderText("Entrada efetuada!");
-        alert.setContentText("Você será levado(a) à tela Cadastro Proprietarios !");
-        alert.showAndWait();     
+    @FXML
+    protected void abrirPoprietarios() throws IOException {
+        FXMLLoader loader = new FXMLLoader(MenuCadastrosController.class.getResource("cadastro-proprietarios.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = new Stage();
+        stage.setTitle("Cadastro de Proprietarios");
+        stage.setScene(scene);
+        stage.sizeToScene();
+        stage.show();
     }
-
-    public void abrirVeiculos() {
-    
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Cadastro Veiculos");
-        alert.setHeaderText("Entrada efetuada!");
-        alert.setContentText("Você será levado(a) à tela Cadastro Veiculos !");
-        alert.showAndWait();         
+      
+    @FXML
+    protected void abrirVeiculos() throws IOException {
+        FXMLLoader loader = new FXMLLoader(MenuCadastrosController.class.getResource("cadastro-veiculos.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = new Stage();
+        stage.setTitle("Cadastro de Veiculos");
+        stage.setScene(scene);
+        stage.sizeToScene();
+        stage.show();
     }
-
-    public void abrirPrecos() {
-    
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Atualizar Preços");
-        alert.setHeaderText("Entrada efetuada!");
-        alert.setContentText("Você será levado(a) à tela Atualização de Preços !");
-        alert.showAndWait();        
+          
+    @FXML
+    protected void abrirPrecos() throws IOException {
+        FXMLLoader loader = new FXMLLoader(MenuCadastrosController.class.getResource("atualizacao-precos.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = new Stage();
+        stage.setTitle("Atualização de Preços");
+        stage.setScene(scene);
+        stage.sizeToScene();
+        stage.show();
     }
    
 }
