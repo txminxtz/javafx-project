@@ -1,8 +1,13 @@
 .estiloTitulo {
-    -fx-font-size: 15px;
-    -fx-font-weight: bold;
-    -fx-min-width: 10px;
-    -fx-min-height: 10px;
+  -fx-font-size: 15px;
+  -fx-font-weight: bold;
+  -fx-min-width: 10px;
+  -fx-min-height: 10px;
+  -fx-padding: 5px 0 0 0; /* Add 5px top padding */
+}
+.estiloTela{
+  prefWidth: "600";
+  prefHeight: "500";
 }
 
 VBox {

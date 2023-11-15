@@ -4,9 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
 
 import conexao.Conexao;
 
@@ -17,7 +14,7 @@ public class DAO_Veiculo {
     //////////////////////////
     public Veiculo cadastrar(Veiculo v) {
         Veiculo veiculo = null;
-        String sql = "INSERT INTO veiculo (placa, marca, modelo, cor, proprietario) VALUES (?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO tbl_veiculos (placa, marca, modelo, cor, proprietario) VALUES (?, ?, ?, ?, ?)";
 
         try (
             Connection connection = Conexao.getConnection();
@@ -31,8 +28,6 @@ public class DAO_Veiculo {
             statement.executeUpdate();
 
             ResultSet rs = statement.getGeneratedKeys();
-
-            System.out.println("O veiculo " + v.getPlaca() + " foi incluido com sucesso.");
 
             if (rs.next()) {
                 veiculo = new Veiculo(v.getPlaca(), v.getMarca(), v.getModelo(), v.getCor(), v.getProprietario());
@@ -50,7 +45,7 @@ public class DAO_Veiculo {
     //////////////////////////
     ////////// READ
     //////////////////////////
-    public Veiculo read(String placa) {
+    /*public Veiculo read(String placa) {
         Veiculo veiculo = null;
         String sql = "SELECT * FROM veiculo WHERE placa = ?";
 
@@ -148,7 +143,7 @@ public class DAO_Veiculo {
         }
 
         return veiculo;
-    }
+    }*/
 
 }
 

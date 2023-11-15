@@ -1,6 +1,8 @@
 package com.example.javafxproject.usuario;
 
 class Usuario{
+
+    private String login;
     private String nome;
     private String cargo;
     private String email;
@@ -10,13 +12,15 @@ class Usuario{
     public Usuario(){}
 
     public Usuario (
+
+        String login, 
         String nome, 
         String cargo, 
         String email, 
         String telefone, 
         String senha) 
     {
-
+        this.login = login;
         this.nome = nome;
         this.cargo = cargo;
         this.email = email;
@@ -25,6 +29,12 @@ class Usuario{
 
     }
 
+    public void setLogin(String login) {
+        this.login = login;
+    }
+    public String getLogin () {
+        return this.login;
+    }
     public void setNome(String nome) {
         this.nome = nome;
     }

@@ -1,8 +1,7 @@
 package com.example.javafxproject.veiculos;
 
-import com.example.javafxproject.veiculos.DAO_Veiculo;
-
 import javafx.fxml.FXML;
+import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 
 
@@ -35,6 +34,18 @@ public class CadastroVeiculosController {
         System.out.println(veiculo.getMarca());
         System.out.println(veiculo.getCor());
         System.out.println(veiculo.getProprietario());
+
+        String message = "Placa: " + placa + "\nModelo: " + modelo + "\nMarca: " 
+            + marca + "\nCor: " + cor + "\nProprietario: " + proprietario;
+
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Cadastro Veiculos");
+        alert.setHeaderText("Cadastro bem sucedido!");
+        alert.setContentText(message);
+        alert.showAndWait();
+
+
+
     }
     
 }

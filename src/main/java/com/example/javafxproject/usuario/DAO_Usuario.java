@@ -2,11 +2,7 @@ package com.example.javafxproject.usuario;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
-import java.util.List;
 
 import conexao.Conexao;
 
@@ -17,28 +13,21 @@ public class DAO_Usuario {
     //////////////////////////
     public Usuario cadastrar(Usuario u) {
         Usuario usuario = null;
-        String sql = "INSERT INTO usuario (nome, email, telefone, cargo, senha) VALUES (?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO tbl_usuarios (login, nome, email, telefone, cargo, senha) VALUES (?, ?, ?, ?, ?, ?)";
 
         try (
             Connection connection = Conexao.getConnection();
             PreparedStatement statement = connection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS);
         ) {
-            statement.setString(1, u.getNome());
-            statement.setString(2, u.getEmail());
-            statement.setString(3, u.getTelefone());
-            statement.setString(4, u.getCargo());
-            statement.setString(5, u.getSenha());
+            statement.setString(1, u.getLogin());
+            statement.setString(2, u.getNome());
+            statement.setString(3, u.getEmail());
+            statement.setString(4, u.getTelefone());
+            statement.setString(5, u.getCargo());
+            statement.setString(6, u.getSenha());
             statement.executeUpdate();
 
-            ResultSet rs = statement.getGeneratedKeys();
-
-            System.out.println("O usuario " + u.getNome() + " foi incluido com sucesso.");
-
-            if (rs.next()) {
-                usuario = new Usuario(u.getNome(), u.getCargo(), u.getEmail(), u.getTelefone(), u.getSenha());
-            }
-
-            rs.close();
+            usuario = new Usuario(u.getLogin(), u.getNome(), u.getCargo(), u.getEmail(), u.getTelefone(), u.getSenha());
 
             return usuario;
         } catch (SQLException e) {
@@ -50,7 +39,7 @@ public class DAO_Usuario {
     //////////////////////////
     ////////// READ
     //////////////////////////
-    public Usuario read(String sLogin) {
+    /*public Usuario read(String sLogin) {
         Usuario usuario = null;
         String sql = "SELECT * FROM usuario WHERE login = ?";
 
@@ -148,7 +137,7 @@ public class DAO_Usuario {
         }
 
         return usuarios;
-    }
-
+    }*/
+    
 }
 
