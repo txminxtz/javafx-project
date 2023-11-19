@@ -1,5 +1,5 @@
-# JavaFX Project
-Projeto JavaFX de exemplo usando Maven.
+# Estacionamento 
+Projeto JavaFX sobre o estacionamento, usando Maven.
 
 ## Como executar
 
