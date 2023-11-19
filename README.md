@@ -18,7 +18,8 @@ Alunos:
 
   Para ser executado, basta fazer a conexão correta do programa com o sql, e verificar se no arquivo "HelloApplication.java" está ligado ao arquivo "login.fxml", como no exemplo:
 
-""@Override
+bash
+@Override
     public void start(Stage stage) throws IOException {
         FXMLLoader loader = new FXMLLoader(HelloApplication.class.getResource("login.fxml"));
         Scene scene = new Scene(loader.load());
@@ -26,7 +27,7 @@ Alunos:
         stage.setTitle("Estacionamento");
         stage.sizeToScene();
         stage.show();
-    }""
+        }
     
   Após a verificaçao correta, é possivel rodar o programa, à partir do comando "./mvnw javafx:run".
 
