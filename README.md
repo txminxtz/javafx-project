@@ -30,4 +30,15 @@ Alunos:
   Após a verificaçao correta, é possivel rodar o programa, à partir do comando "./mvnw javafx:run".
 
   Com o sucesso de iniciação, a primeira tela a ser aberta será a do login, onde o usuário do estacionamento deverá fazer o login correto, com o usuario (root) e a senha (root), caso contrário a entrada será negada.
+  Com o login bem sucedido o usuário será levado à tela de Menu Principal onde poderá selecionar três botões, "Cadastros", "Registros" e "Relatórios". 
+
+  1- Cadastros
+
+  Ao selecionar o botão cadastros o usuario será levado ao Menu de Cadastros, podendo selecionar uma de funções entre cadastrar usuarios, proprietarios, veiculos ou preços.
+  Os cadastros são diretamente ligadas ao sql, portanto ao incluir um novo cadastro, este deverá ser levado ao banco de dados do programa.
+
+  2- Registros
+
+  No registro, é possivel incluir um novo registro de veículo ao estacionamento.
+  
   
