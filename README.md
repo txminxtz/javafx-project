@@ -18,8 +18,6 @@ Alunos:
 
   Para ser executado, basta fazer a conexão correta do programa com o sql, e verificar se no arquivo "HelloApplication.java" está ligado ao arquivo "login.fxml", como no exemplo:
 
-bash
-@Override
     public void start(Stage stage) throws IOException {
         FXMLLoader loader = new FXMLLoader(HelloApplication.class.getResource("login.fxml"));
         Scene scene = new Scene(loader.load());
