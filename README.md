@@ -34,15 +34,15 @@ Alunos:
 
     1- Cadastros
 
-  Ao selecionar o botão cadastros o usuario será levado ao Menu de Cadastros, podendo selecionar uma de funções entre cadastrar usuarios, proprietarios, veiculos ou preços.
-  Os cadastros são diretamente ligadas ao sql, portanto ao incluir um novo cadastro, este deverá ser levado ao banco de dados do programa.
+    Ao selecionar o botão cadastros o usuario será levado ao Menu de Cadastros, podendo selecionar uma de funções entre cadastrar usuarios, proprietarios, veiculos ou preços.
+    Os cadastros são diretamente ligadas ao sql, portanto ao incluir um novo cadastro, este deverá ser levado ao banco de dados do programa.
 
     2- Registros
 
-  No registro, é possivel incluir um novo registro de veículo ao estacionamento.
+    No registro, é possivel incluir um novo registro de veículo ao estacionamento.
 
     3- Relatorios
 
-  No relatorio, é possivel selecionar as datas dos períodos desejáveis e será mostrado o relátorios dos veículos que estiveram lá, porém está função ainda está em teste e futuramente veremos uma forma desta função se comunicar com o banco de dados para mostrar o relatório.
+    No relatorio, é possivel selecionar as datas dos períodos desejáveis e será mostrado o relátorios dos veículos que estiveram lá, porém está função ainda está em teste e futuramente veremos uma forma desta função se comunicar com o banco de dados para mostrar o relatório.
 
 Obs geral: possivelmente está faltando a pasta ".mvn/wrapper" contendo o "maven-wrapper.jar" e "maven-wrapper.properties", que são extremamente necessárias para o funcionamento do programa, porém ao fazer o upload dos arquivos do programa, estes não estão sendo inseridas ao git hub.
